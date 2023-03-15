@@ -25,7 +25,7 @@ var express     = require("express"),
 
 // setting up defaults that app requires
 seedDB();
-mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true});
+mongoose.connect("mongodb://localhost:27017/", {useNewUrlParser: true});
 // mongoose.connect("mongodb://localhost/performi_app", {useNewUrlParser: true});
 // console.log(process.env.DATABASEURL);
 //mongoose.connect("mongodb+srv://Ritvik:<Rlpie689$>@cluster1.crimt.mongodb.net/?retryWrites=true&w=majority");
