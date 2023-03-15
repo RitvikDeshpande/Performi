@@ -1,0 +1,389 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+/* Login page */
+ /*  */
+ /*  */
+
+#appTitle{
+    font-size: 2.5rem;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    margin-top: 6vh;
+    margin-bottom: 3vh; 
+    color: #457b9d;
+    font-weight: 500;
+    letter-spacing: .08rem;
+}
+
+#forgotPasswordTitle{
+    font-size: 2.5rem;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    color: #457b9d;
+    font-weight: 500;
+    letter-spacing: .08rem;
+    margin-bottom: 3vh; 
+}
+
+#resetPasswordTitle{
+  font-size: 2.5rem;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  color: #457b9d;
+  font-weight: 500;
+  letter-spacing: .08rem;
+  margin-bottom: 3vh; 
+}
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px)  {
+    #appTitle{
+      font-size: 2.5rem;
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 1030px) and (max-width: 1366px)  {
+    #appTitle{
+      font-size: 2.5rem;
+      margin-top: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1370px) {
+    #appTitle{
+      font-size: 4rem;
+    }
+  }
+
+.loginDiv{
+    border: 2px solid #d1d1d1;
+    width: 32%;
+    height: 76vh;
+    margin: 12vh auto;
+    padding-left: 2rem;
+}
+
+.forgotPasswordDiv{
+  border: 2px solid #d1d1d1;
+  width: 32%;
+  height: auto;
+  margin: 12vh auto;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+  .loginDiv{
+    padding-left: 3%;
+  }
+}
+
+.form-control{
+    width: 80%;
+    height: 4.5vh;
+}
+
+#forgotPassword{
+    display: block;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+  #forgotPassword{
+    margin-bottom: 2vh;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1366px)  {
+  #forgotPassword{
+    margin-bottom: 2vh;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1370px) {
+  #forgotPassword{
+    margin-bottom: 4vh;
+  }
+}
+
+#loginBtn{
+    display: block;
+    width: 80%;
+    height: 6vh;
+    margin-bottom: 5vh;
+    background-color: #457b9d;
+    font-weight: bold;
+    border-radius: 1.2rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+  #loginBtn{
+    margin-bottom: 3vh;
+  }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1366px)  {
+  #loginBtn{
+    margin-bottom: 3vh;
+  }
+}
+
+@media screen and (min-width: 1370px) and (max-width: 1500px) {
+  #loginBtn{
+   margin-bottom: 2vh;
+   width: 80%;
+  }
+}
+
+
+#signingUp{
+    padding-left: 1rem;
+    line-height: 4vh;
+    width: 80%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+  #signingUp{
+    font-size: 0.9rem;
+    line-height: 3vh;
+  }
+
+  #signingUp div{
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1366px)  {
+  #signingUp{
+    width: 80%;
+    font-size: 0.9rem;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1370px) and (max-width: 1500px) {
+  #loginBtn{
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 1510px) {
+  #signingUp{
+   padding-left: 10%;
+  }
+}
+
+a{
+    color: #457b9d;
+    font-weight: 700;
+}
+
+/* ////////////////////////////////////////// DEMO PAGE /////////////////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.demoLoginDiv{
+  border: 2px solid #d1d1d1;
+  width: 32%;
+  height: 76vh;
+  margin: 12vh auto;
+}
+
+.divTitle{
+  text-align: center;
+}
+
+#demoLoginTitle{
+    color: #1d3557;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 7vh auto;
+
+}
+
+.demoSpacing{
+    margin-bottom: 9vh;
+    color: #1d3557;
+    font-weight: 400;
+    text-decoration: underline;
+    background-color: white;
+    border: none;
+}
+
+.demoUser{
+    padding-left: 20%;
+}
+
+.fa-user{
+    font-size: 5em;
+}
+
+.bottomMargin{
+  margin-bottom: 40%;
+}
+
+#demoSignIn{
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+  #demoSignIn{
+    margin-left: 25%; 
+    margin-right: 25%;
+  }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1366px)  {
+  #demoSignIn{
+    margin-left: 25%; 
+    margin-right: 25%;
+  }
+}
+
+@media(min-width: 1370px){
+  #demoSignIn{
+    margin-left: 30%; 
+    margin-right: 25%;
+  }
+}
+
+
+#demoIconColor1{
+    color: #e63946;
+}
+
+#demoIconColor2{
+    color: #a8dadc;
+}
+
+#demoIconColor3{
+    color: #457b9d;
+}
+
+#demoIconColor4{
+    color: #1d3557;
+}
+
+
+/* company sign up page */
+
+.appTitle{
+  font-size: 2.5rem;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  margin-top: 6%;
+  margin-bottom: 1.7%; 
+  color: #457b9d;
+  font-weight: 500;
+  letter-spacing: .08rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+  .appTitle{
+    font-size: 1.5rem;
+    margin-top: 4%;
+  }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1366px)  {
+  .appTitle{
+    font-size: 2rem;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1370px) {
+  .appTitle{
+    font-size: 2.5rem;
+  }
+}
+
+#lastName{
+  width: 96%;
+}
+
+
+.forgotPassword{
+  display: block;
+  margin-top: 1%;
+  margin-bottom: 5;
+}
+
+.labelCompanySignUp{
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1630px) {
+  .labelCompanySignUp{
+   margin-bottom: 0;
+    }
+  }
+
+#loginBtnSignUp{
+  display: block;
+  width: 80%;
+  height: 6vh;
+  margin-bottom: 1rem;
+  background-color: #457b9d;
+  font-weight: bold;
+  border-radius: 1.2rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+#loginBtnSignUp{
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1366px)  {
+#loginBtnSignUp{
+  margin-bottom: 0.6rem;
+  margin-top: 0.5rem;
+}
+  }
+
+@media screen and (min-width: 1370px) and (max-width: 1500px) {
+#loginBtnSignUp{
+ margin-bottom: 1%;
+ margin-top: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 1510px) and (max-width: 1630px) {
+  #loginBtnSignUp{
+   margin-top: 1rem;
+    }
+  }
+
+  .companySignUpgroup{
+    margin-bottom: 0.5rem;
+  }
+
+
+  .companySignUpgroup .form-control{
+
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1540px) {
+    .companySignUpgroup .form-control{
+      margin-right: 0;
+      width: 70%;
+      }
+    }
+
+

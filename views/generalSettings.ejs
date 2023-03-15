@@ -1,0 +1,212 @@
+<%- include ("./partials/header2.ejs") %> 
+    
+<div class="manageAccountDiv">
+    <h2>Manage Account</h2>
+    <ul class="nav flex-column nav-pills">
+        <div class="a-div">
+            <a class="nav-link nav-item generalSettings" data-toggle="pill" href="#generalSettings">General Settings</a>
+            <i class="fas fa-caret-right arrowIcon"></i>
+            <a class="nav-link nav-item" data-toggle="pill" href="#reviewCycles">Review Cycles</a>
+            <i class="fas fa-caret-right arrowIcon2"></i>
+        </div>
+    </ul>
+</div>
+
+<div class="tab-content" id="nav-tabContent">
+
+    <div id="generalSettings" class="tab-pane fade in">
+        
+        <div class="generalSettings2">
+            <h2>General</h2>
+            <hr>
+            <form action="/generalSettings" method="POST">
+                <div class="form-group">
+                    <Label for="companyName"> Change Company Name</Label>
+                    <input type="text" name="companyName" id="companyName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <Label for="peerFeedbackCycle"># of 360 Feedbacks per assessment cycle</Label>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          1
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">2</a>
+                          <a class="dropdown-item" href="#">3 </a>
+                          <a class="dropdown-item" href="#">4 </a>
+                        </div>
+                    </div>
+                    <hr class="saveChanges">
+                    <button class="btn saveChangesBtn">Save Changes</button>  
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="reviewCycles" class="tab-pane fade in">
+        <form action="/reviewCycles" method="POST">
+            <div class="changeSettings">
+                <h2>Review Cycles</h2>
+                <hr>
+                <p>In this section you can decide how many times you want your employees to be reviewed per annum. This can be based on several factors such as the size of your company, organizational structure, manager to employee ratio etc.</p>
+                    <div class="row no-gutters">
+                        <div class="col-auto mr-4 ">
+                            <h4 class="noDisplay">#1 </h4>
+                        </div>
+                        <div class="col-2 col-md-3 col-xl-2 pr-3">
+                            <h3>Cycle Name</h3>
+                        </div>
+                        <div class="col-2 col-md-3 col-xl-2 pr-3">
+                            <h3>Start Date</h3>
+                        </div>
+                        <div class="col-2 col-md-3 col-xl-2 pr-3">
+                            <h3>End Date</h3>
+                        </div>
+                    </div>
+                    <div class="row no-gutters mb-2 firstRow">
+                        <div class="col-auto mr-4 ">
+                            <h4 class="pt-2">#1 </h4>
+                        </div>
+                        <div class="col-2 col-md-3 col-xl-2 pr-3">
+                            <input type="text" class="form-control" name="cycleName">
+                        </div>
+                        <div class="col-2 col-md-3 col-xl-2 pr-3">
+                            <input type="text" class="form-control" id="startDate1" name="startDate1" autocomplete="off">
+                        </div>
+                        <div class="col-2 col-md-3 col-xl-2 pr-3">
+                            <input type="text" class="form-control" id="endDate1"  name="endDate1" autocomplete="off">
+                        </div>
+                        <div class="col-1 pt-1 divIcons" id="first">
+                            <i class="fas fa-trash"></i>
+                            <i class="fas fa-plus" ></i>
+                        </div>
+                    </div>
+                    <hr class="saveChanges" id="changeSettingsHr">
+                    <button class="btn saveChangesBtn">Save Changes</button>  
+            </div>
+        </form>
+        
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/js-datepicker"></script>
+
+<script>
+
+    // const start = datepicker('#startDate1', {
+    //     formatter: (input, date, instance) => {
+    //         const value = date.toLocaleDateString()
+    //         input.value = value // => '1/1/2099'
+    //     },
+    //     id: 1
+    // })
+
+    // const end = datepicker('#endDate1', {
+    //     formatter: (input, date, instance) => {
+    //         const value = date.toLocaleDateString()
+    //         input.value = value // => '1/1/2099'
+    //     },
+    //     id: 1
+    // })
+
+    var counter = 1;
+    $(".changeSettings").on("click", "i.fa-plus", function(){
+        counter++;
+        addRow();
+    });
+
+    $(".changeSettings").on("click", "i.fa-trash", function(){
+        removeRow();
+    });
+
+    $(".changeSettings").on("click", "button.saveChangesBtn", function(){
+        addHiddenInput();
+    });
+ 
+    function addHiddenInput() {
+        var hiddenInput  = '<input type="hidden" class="form-control" name="counter" value="'+ counter +'" >';
+        $(".changeSettings").append(hiddenInput);
+    }
+
+    function removeRow() {
+        $(".divRow").last().hide();
+        $(".divIcons:eq(-2)").show();
+
+    }
+
+    function addRow(){
+        //'<div class="row no-gutters mb-2 divRow"> </div>'
+        var divRow = $("<div>", {"class": "row no-gutters mb-2 divRow"});
+        var divNumCol = `<div class="col-auto mr-4"> <h4 class="pt-2">#${counter} </h4> </div>`;
+        var divCycleName = '<div class="col-2 col-md-3 col-xl-2 pr-3"> <input type="text" class="form-control" name="cycleName'+ counter + '" id="cycleName'+ counter + '" autocomplete="off"> </div>';
+        var divStartDate = '<div class="col-2 col-md-3 col-xl-2 pr-3"> <input type="text" class="form-control" name="startDate'+ counter + '" id="startDate'+ counter + '" autocomplete="off"> </div>';
+        var divEndDate   = '<div class="col-2 col-md-3 col-xl-2 pr-3"> <input type="text" class="form-control" name="endDate'+ counter + '"   id="endDate'+ counter + '" autocomplete="off"> </div>';
+        var divIcons = $("<div>", {"class": "col-1 pt-1 divIcons"});
+        var trash = $("<i>", {"class": "fas fa-trash mr-1"});
+        var plus = $("<i>", {"class": "fas fa-plus"});
+
+        $(".divIcons").last().hide();
+        $("#changeSettingsHr").before(divRow);
+        $(".divRow").last().append(divNumCol, divCycleName, divStartDate, divEndDate, divIcons);
+        $(".divIcons").last().append(trash, plus);
+
+        datepicker(`#startDate${counter}`, {
+            formatter: (input, date, instance) => {
+                const value = date.toLocaleDateString();
+                input.value = value; // => '1/1/2099'
+            },
+            id: counter
+        });
+
+        datepicker(`#endDate${counter}`, {
+            formatter: (input, date, instance) => {
+                const value = date.toLocaleDateString();
+                input.value = value; // => '1/1/2099'
+            },
+            id: counter
+        });
+        
+    }
+
+    var start = datepicker(`#startDate1`, {
+            formatter: (input, date, instance) => {
+                const value = date.toLocaleDateString();
+                input.value = value; // => '1/1/2099'
+            },
+            id: 1
+        });
+
+        var end = datepicker(`#endDate1`, {
+            formatter: (input, date, instance) => {
+                const value = date.toLocaleDateString();
+                input.value = value; // => '1/1/2099'
+            },
+            id: 1
+        });
+
+
+// add padding top to show content behind navbar
+$('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+
+// detect scroll top or down
+if ($('.smart-scroll').length > 0) { // check if element exists
+    var last_scroll_top = 0;
+    $(window).on('scroll', function() {
+        scroll_top = $(this).scrollTop();
+        if(scroll_top < last_scroll_top) {
+            $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+        }
+        else {
+            $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
+        }
+        last_scroll_top = scroll_top;
+    });
+}
+</script>
+
+    </body>
+    </html>

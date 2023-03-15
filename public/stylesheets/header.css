@@ -1,0 +1,1753 @@
+button{
+  box-shadow: 1px 1px 3px;
+}
+
+.navbar{
+  padding: 0 1rem;
+}
+
+#navbarBrandDiv{
+  border: 1px solid #f1f1f1;
+  height: 70%;
+}
+
+.nav-link{
+  padding-left: 0.5rem;
+}
+
+.navbar-custom{
+    height: 5%;
+    padding-top: 0;
+}
+
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand{
+  color: #f1faee;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding-left: 0.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  letter-spacing: 0.15rem;
+}
+
+.dropdown-toggle{
+  color: #f1faee;
+}
+
+.tabs{
+  margin-left: 1%;
+}
+
+.tabs li{
+  position: relative;
+}
+
+.tabs a{
+    color: #f1faee;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.tabs a:hover{
+  color: #ffffff;
+}
+
+.tabs a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: rgb(202, 228, 212);
+  position: relative;
+  top: 0;
+}
+
+.tabs a:hover::before{
+  width: 100%;
+  transition: all ease-in-out 250ms;
+}
+
+.dropdown-menu .dropdownColor{
+  color: #1d3557;
+}
+
+.navbar2{
+    z-index: 0;
+    margin-top: 2.5%;
+    height: 10.9%;
+    background-color: #e63946;
+    opacity: 0.87;
+}
+
+.nameJob{
+    margin-left: 20.33%;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.3rem;
+    padding-bottom: 0.77rem;
+    color: #f1faee;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px)  {
+    .nameJob{
+      font-size: 1.7rem;
+      line-height: 0.1rem;
+      padding-bottom: 0;
+      padding-top: 1rem;
+    }
+  }
+  
+  @media screen and (min-width: 1030px) and (max-width: 1366px)  {
+    .nameJob{
+      font-size: 2rem;
+      line-height: 0.5rem;
+      padding-bottom: 0;
+    }
+  }
+  
+  @media screen and (min-width: 1370px ) and (max-width: 1600px) {
+    .nameJob{
+      font-size: 2.5rem;
+      line-height: 0.5rem;
+    }
+  }
+
+  @media (min-width: 1610px) {
+    .nameJob{
+      font-size: 2.8rem;
+      line-height: 0.5rem;
+    }
+  }
+  
+  .nameJob small {
+    margin-top: 1.4rem;
+    display:block;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px)  {
+    .nameJob small{
+      font-size: 1rem;
+      
+    }
+  }
+  
+  @media screen and (min-width: 1030px) and (max-width: 1366px)  {
+    .nameJob small{
+      font-size: 1.3rem;
+      
+    }
+  }
+  
+  @media (min-width: 1370px) {
+    .nameJob small{
+      font-size: 1.6rem;
+    }
+  }
+
+  #profilePic{
+      position: absolute;
+      margin-left: 6%;
+      margin-top: 2%;
+      z-index: 1;
+      width: 11%;
+      height: auto;
+      border-radius: 50%;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px)  {
+    #profilePic {
+      margin-left: 3%;
+    }
+  }
+
+  @media screen and (min-width: 1030px) and (max-width: 1366px)  {
+    #profilePic {
+      margin-left: 5%;
+    }
+  }
+
+
+  .employeesPic{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+  #personalInfo{
+    margin-left: 6%;
+    margin-top: 14%;
+    /* position: absolute;
+    top: 35%;
+    margin-left: 6%;
+    font-size: 1.24rem; */
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px)  {
+    #personalInfo {
+      margin-top: 15%;
+      margin-left: 3%;
+      
+    }
+  }
+
+  @media screen and (min-width: 1030px) and (max-width: 1366px)  {
+    #personalInfo {
+      margin-left: 5%;
+    }
+  }
+
+  #personalInfo p{
+    color: #1d3557;
+    margin-bottom: 0.2vh;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px)  {
+    #personalInfo p{
+      font-size: 0.8rem;
+      
+    }
+  }
+  
+  @media screen and (min-width: 1030px) and (max-width: 1366px)  {
+    #personalInfo p{
+      font-size: 0.9rem;
+      margin-bottom: 0.3rem;
+    }
+  }
+  
+  @media (min-width: 1370px) {
+    #personalInfo p{
+      font-size: 1rem;
+    }
+  }
+
+  #personalInfo i{
+    color:black;
+  }
+
+  #personalInfo .heading{
+      font-weight: bold;
+      color: #e63946;
+  }
+
+  .besidePic{
+    margin-top: 2.9%;
+    margin-right: 0;
+  }
+
+  .settings{
+    color: #f1faee;
+  }
+
+  #suboordinates{
+    margin-top: 1rem;
+  }
+
+  #personalInfo hr{
+    margin-left: .1rem;
+    width: 65%;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
+
+  /* ///////////////////////////////////////////////////// HOME PAGE /////////////////////////////////////////////*/
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+  .content{
+    position: absolute;
+    top: 17%;
+    left: 21%;
+    width: 75.3%;
+  }
+
+  h1{
+    color: #1d3557;
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+
+  .dashboardBox{
+    box-shadow: 1px 1px 3px;
+    height: 20%;
+    margin-top: 1rem;
+    background-color: #ededed;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  p{
+    color: #1d3557;
+  }
+
+  .dashboardBox p:nth-of-type(1){
+    font-weight: 700;
+  }
+
+  a{
+    color: #457b9d;
+    font-weight: 700;
+  }
+
+  h1 i {
+    margin-right: 1rem;
+    color: #457b9d;
+  }
+
+  /* ///////////////////////////////////////////////////// TASKS PAGE /////////////////////////////////////////////*/
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+  #inLineNumber{
+    display: inline;
+    margin-right: 0.4%;
+  }
+
+  .circle{
+    position: absolute;
+    top: 1%;
+    left: 7%;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    padding-left: 0.65rem;
+    padding-right: 0.5rem;
+    padding-top: 0.15rem;
+    background: #457b9d;
+    border: 1px solid #457b9d;
+    color: #f1faee;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-flex;
+  }
+
+  .currentTasks{
+    box-shadow: 1px 1px 3px;
+  }
+
+  .finishedTasks{
+    box-shadow: 1px 1px 3px;
+  }
+
+  .redBar{
+    margin-top: 1rem;
+    background-color: #e63946;
+    height: 2%;
+    padding-left: 1rem;
+  }
+
+  .redBar span{
+    color: #f1faee;
+    font-size: 1.2rem;
+  }
+
+  .task{
+    background-color: #ededed;
+    height: 10%;
+    border-bottom: 1px solid #a6a6a6;
+    border-bottom-width: 90%;
+    padding-right: 0%;
+  }
+
+  .fa-comment-dots{
+    font-size: 2.5rem;
+    color: #1d3557;
+    padding-left: 25%;
+    padding-bottom: 0;
+    margin-top: 12%;
+    margin-bottom: 15%;
+  }
+
+  .firstParagraph{
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-weight: 600;
+    line-height: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .secondParagraph{
+    font-size: 0.8rem;
+  }
+  .respondBtn{
+    background-color: #457b9d;
+    color: #f1faee;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    height: 65%;
+    margin-top: 5%;
+  }
+
+  .respondBtn i{
+    color: #f1faee;
+  }
+
+  .respondBtn span{
+    color: #f1faee;
+  }
+
+  .declineBtn{
+    background-color: #f1faee; 
+    color: #1d3557;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    height: 65%;
+    margin-top: 5%;
+  }
+
+  .viewTaskBtn{
+    background-color: #f1faee; 
+    color: #1d3557;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    height: 65%;
+    margin-top: 12%;
+    width: 6.5rem;
+  }
+   /* ///////////////////////////////////////////////////// GOALS PAGE /////////////////////////////////////////////*/
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+  .divNavTab{
+    height: 4rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .nav-tabs{
+    background-color: #ededed;
+    height: 100%;
+  }
+
+  .nav-tabs i {
+    color: #457b9d;
+
+  }
+
+  #goalsHeading {
+    margin-top: 0.5rem;
+    padding-top: 0.7rem;
+    height: 3.6rem;
+    width: 6rem;
+  }
+
+  
+  @media screen and (min-width: 800px) and (max-width: 1010px){
+    #goalsHeading{
+      width: 6rem;
+    }
+  }
+
+#assessmentHeading {
+  margin-top: 0.5rem;
+  padding-top: 0.7rem;
+  height: 3.6rem;
+  width: 10rem;
+  margin-right: 1rem;
+    }
+
+    @media screen and (min-width: 800px) and (max-width: 1010px){
+      #assessmentHeading{
+        width: 10rem;
+      }
+    }
+
+#feedbackHeading {
+  margin-top: 0.5rem;
+  padding-top: 0.7rem;
+  height: 3.6rem;
+  width: 11rem;
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1010px){
+    #feedbackHeading{
+      width: 11rem;
+    }
+  }
+
+  
+
+  #goals{
+    position: absolute;
+    top: 28vh;
+    left: 21%;
+    width: 75.3%;
+    /* width: 100%; */
+    height: auto;
+    /* margin-top: 0.9rem; */
+  }
+
+  #assessment{
+    position: absolute;
+    top: 28vh;
+    left: 21%;
+    width: 75.3%;
+    /* width: 100%;
+    margin-top: 0.9rem; */
+  }
+
+  #feedback{
+    position: absolute;
+    top: 28vh;
+    left: 21%;
+    width: 75.3%;
+    /* width: 100%;
+    margin-top: 0.9rem; */
+  }
+
+  .goalsContent a{
+    color: #1d3557;
+  }
+
+  .marginDropDown{
+
+  }
+
+  @media screen and (min-width: 1250px) and (max-width: 1330px){
+    .marginDropDown{
+      margin-left: 8%;
+    }
+  }
+
+  @media screen and (min-width: 1340px) and (max-width: 1500px){
+    .marginDropDown{
+      margin-left: 10%;
+    }
+  }
+
+  @media screen and (min-width: 1510px) and (max-width: 1700px){
+    .marginDropDown{
+      margin-left: 12%;
+    }
+  }
+
+  @media screen and (min-width: 1710px) and (max-width: 1800px){
+    .marginDropDown{
+      margin-left: 14%;
+    }
+  }
+
+  @media screen and (min-width: 1810px) and (max-width: 1990px){
+    .marginDropDown{
+      margin-left: 16%;
+    }
+  }
+
+  .reviewPeriodBtnColor{
+    background-color: white;
+    color: #1d3557;
+  }
+
+  #addGoalBtn{
+    background-color: #457b9d;
+    color: #f1f1f1;
+    width: 8rem;
+  }
+
+  #addGoalBtn span{
+    position: relative;
+  }
+
+  #goals hr {
+    margin-top: 0.7rem;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.newGoalDiv{
+  margin-top: 0;
+  margin-left: 3.5%;
+  width: 93%;
+  background-color: #dddddd;
+  height: 86%;
+  display: none;
+}
+
+.newGoalForm{
+  margin-left: 4.1rem;
+}
+
+.newGoalDiv h2{
+  color: #1d3557;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+ 
+.newGoalDiv i{
+  color: #457b9d;
+  font-size: 2.5rem;
+}
+
+#goal{
+  height: 5rem;
+}
+
+.labels{
+  margin-bottom: 0;
+}
+
+#saveGoal{
+  background-color: #457b9d;
+  color: #f1f1f1;
+}
+
+#cancelGoal{
+  background-color: #e63946;
+  color: #f1f1f1;
+}
+
+.goalsCommentsDiv{
+  padding-right: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 3.5%;
+  width: 93%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.goalsCommentsDiv i{
+  color: #457b9d;
+  font-size: 2.5rem;
+}
+
+.goalsCommentsDiv h2{
+  color: #1d3557;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.commentsDiv{
+  margin-left: 7.1rem;
+  width: 96%;  
+}
+
+.indented-content{
+  margin-left: 5%;
+  width: 95%;
+  height: 20rem;
+}
+
+.indented-content small{
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+  color: #1d3557;
+}
+
+.progress{
+  margin-top: 2rem;
+  margin-bottom: 0;
+  height: 1.5rem;
+  background-color: #9e9e9e;
+}
+
+.progress-bar{
+  background-color: #e63946;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #e63946; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #e63946; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.comment{
+  background-color: #ededed;
+  height: 5.5rem;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+.profilePicComment{
+  width: auto;
+  height: 13%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.comment .nameOfPerson{
+  line-height: 0.9rem;
+}
+
+.comment .commentDetail{
+  font-weight: 700;
+  width: 100%;
+}
+
+.addComment{
+  background-color: #ededed;
+  height: 4rem;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+#dueDateGoal{
+  font-size: 0.8rem;
+  /* margin-left: 17%; */
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1330px){
+  #dueDateGoal{
+    margin-left: 27%;
+  }
+}
+
+@media screen and (min-width: 1340px) and (max-width: 1500px){
+  #dueDateGoal{
+    margin-left: 33%;
+  }
+}
+
+@media screen and (min-width: 1510px) and (max-width: 1700px){
+  #dueDateGoal{
+    margin-left: 45%;
+  }
+}
+
+@media screen and (min-width: 1710px) and (max-width: 1800px){
+  #dueDateGoal{
+    margin-left: 47%;
+  }
+}
+
+@media screen and (min-width: 1810px) and (max-width: 1990px){
+  #dueDateGoal{
+    margin-left: 50%;
+  }
+}
+
+.postComment{
+  background-color: #457b9d;
+  color: #f1f1f1;
+  height: 2.5rem; 
+  padding:0
+}
+
+.postComment span {
+  margin-bottom: 1rem;
+}
+
+.fa-paper-plane:before {
+  content: "\f1d8";
+  color: #f1faee;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#addCommentProfilePic{
+  width: auto;
+  height: 10%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+/* //////////////////////////////////////////// SELF ASSESSMENT PAGE//////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.selfAssessment{
+  background-color: #ededed;
+  height: auto;
+  box-shadow: 1px 1px 3px;
+  margin-bottom: 1rem;
+}
+
+.fadedSelfAssessment{
+  height: auto;
+  padding: 1rem;
+  box-shadow: 1px 1px 3px;
+  background-color: #ededed;
+}
+
+.fadedSelfAssessment i{
+  font-size: 3rem;
+  color: #457b9d;
+  margin-bottom: 1.5rem;
+  opacity: 0.3;
+}
+
+.fadedSelfAssessment h2{
+  color: #1d3557;
+  opacity: 0.3;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.fadedSelfAssessment hr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 85%;
+  opacity: 0.3;
+  margin-left: 0;
+}
+
+.selfAssessmentForm{
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: auto;
+}
+
+.selfAssessmentForm i{
+  font-size: 3rem;
+  color: #457b9d;
+  margin-bottom: 1.5rem;
+}
+
+.selfAssessmentForm h2{
+  color: #1d3557;
+}
+
+.labelMargin{
+  margin-bottom: 0;
+  margin-right: 2rem;
+}
+
+.custom-select{
+  width: 85%;
+}
+
+.selfAssessmentForm hr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 85%;
+  margin-left: 0;
+}
+
+.selfAssessmentInput{
+  width: 85%;
+  height: 10rem;
+}
+
+.submitAssessment{
+  background-color: #457b9d;
+  color: #f1faee;
+  border: 1px solid #1d3557;
+}
+
+.saveAssessment{
+  background-color: #f1faee;
+  color: #1d3557;
+  border: 1px solid #1d3557;
+}
+
+.submitManagerAssessment{
+  background-color: #457b9d;
+  color: #f1faee;
+  border: 1px solid #1d3557;
+}
+
+.saveManagerAssessment{
+  background-color: #f1faee;
+  color: #1d3557;
+  border: 1px solid #1d3557;
+}
+
+.managerAssessment{
+  height: auto;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.managerAssessment i{
+  font-size: 3rem;
+  color: #457b9d;
+  margin-bottom: 1.5rem;
+  opacity: 0.3;
+}
+
+.managerAssessment h2{
+  color: #1d3557;
+  opacity: 0.3;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.managerAssessment hr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 85%;
+  opacity: 0.3;
+  margin-left: 0;
+}
+
+.middleIcon{
+  position: absolute;
+  font-size: 5rem;
+  left: 20rem;
+  top: 15rem;
+  opacity: 0.3;
+}
+
+.userWarning{
+  position: absolute;
+  left: 13rem;
+  top: 20rem;
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.lightText{
+  /* opacity: 0.15; */
+  color: transparent;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* ////////////////////////////// PEER FEEDBACK PAGE///////////////////////////////////////////////////////// */
+/* ////////////////////////////// //////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////// ////////////////////////////////////////////////////////////////////////////////// */
+
+
+.peerFeedback{
+  background-color: white;
+  height: auto;
+  box-shadow: 1px 1px 3px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+.peerFeedbackBlank h2{
+  color: #1d3557;
+  opacity: 0.15;
+}
+
+.peerFeedbackBlank h3{
+  font-size: 1rem;
+  margin-bottom: 0;
+  opacity: 0.05;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.peerFeedbackBlank p{
+  opacity: 0.05;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.peerFeedbackBlank hr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 85%;
+  opacity: 0.3;
+  margin-left: 0;
+}
+
+.peerFeedback h2{
+  color: #1d3557;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+}
+
+#feedbackCompletedDate{
+  font-size: 0.9rem;
+}
+
+.peerFeedback h3{
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.peerFeedback hr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 100%;
+  margin-top:0;
+  margin-right: 0;
+}
+
+.profilePicPeerReview{
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-bottom: 0;
+  margin-top: 0.3rem;
+}
+
+.profilePicPeerReviewBlank{
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-bottom: 0;
+  margin-top: 0.3rem;
+  opacity: 0.05;
+}
+
+.peerFeedbackBlank span{
+  position: absolute;
+  left: 11rem;
+  top: 16rem;
+}
+
+.profilePicPeerReviewCenter{
+  position: absolute;
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  opacity: 0.15;
+  left: 17rem;
+  top: 12rem;
+}
+
+/* //////////////////////////////////////////////////EMPLOYEES PAGE///////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.header2container{
+  position: absolute;
+  top: 17%;
+  left: 7%;
+  width: 89%;
+  height: 78%;
+}
+
+#reviewDropdown{
+  margin-bottom: 0;
+}
+
+.dropDown{
+  width: 100%;
+}
+
+.reviewDropdownBtn{
+  background-color: white;
+  color: #1d3557;
+  height: 2rem;
+  width: 17%;
+  padding-left: 16rem;
+  padding-right: 2rem;
+}
+
+.reviewDropdownBtn span{
+  position: absolute;
+  top: 0.2rem;
+  left: 0.5rem;
+}
+
+.employeeFilter{
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #ededed;
+  height: 6rem;
+  box-shadow: 1px 1px 3px;
+  padding-bottom: 1rem;
+}
+
+.employeeFilterRow{
+  padding-bottom: 1rem;
+}
+
+.redBarEmployee{
+  width: 100%;
+  height: 32%;
+  background-color: #e63946;
+  padding-left: 0.3rem;
+  padding-bottom: 1.4rem;
+}
+
+.redBarEmployee span{
+  color: #f1faee;
+}
+
+.employeeFilter .form-row {
+  padding-left: 0.5rem;
+  padding-top: 0.7rem;
+}
+
+.employeeFilter .form-row span{
+  color: #1d3557;
+  font-weight: bold;
+  margin-right: 0.8rem;
+  padding-top: 0.2rem;
+}
+
+#employeeName{
+  width: 15%;
+  height: 6%;
+  margin-right: 0.3rem;
+}
+
+#searchEmployee{
+  margin-right: 2rem;
+  width: 10%;
+  height: 6%;
+  background-color: #457b9d;
+  color: #f1faee;
+}
+
+.form-row ::placeholder{
+  color: #f1faee;
+}
+
+.findDepartmentDiv{
+  width: 15%;
+}
+
+.departmentDropdownBtn{
+  background-color: white;
+  color: #a6a6a6;
+  height: 2.2rem;
+  width: 11%;
+  padding-right: 11rem;
+  border: 1px solid #ededed;
+}
+
+.departmentDropdownBtn span{
+  padding-right: 6rem;
+  font-weight: 400;
+}
+
+.findEmployees{
+  margin-top: 1rem;
+  background-color: #ededed;
+  height: auto;
+  box-shadow: 1px 1px 3px;
+  padding-top: 0.1rem;
+  padding-left: 0.3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+}
+
+.tableHeading{
+  font-weight: bold;
+  color: #1d3557;
+  width: 80%;
+  margin-left: 9%;
+  margin-right: 0;
+}
+
+#numOfEmployeesFound{
+  font-size: 0.8rem;
+}
+
+.hrManagers{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 99%;
+  margin-bottom: 1rem;
+}
+
+.profilePicEmployeePage{
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.nameOfEmployee{
+  color: #457b9d;
+  font-weight: bold;
+}
+
+.newAppraisals{
+  color: #1d3557;
+}
+
+.results{
+  background-color: #f1faee;
+  color: #1d3557;
+}
+
+.view{
+  background-color: #f1faee;
+  box-shadow: 1px 1px 3px;
+}
+
+.viewEmployeesGoal{
+  margin-left: 0;
+}
+
+@media (min-width: 1700px) {
+  .viewEmployeesGoal{
+    margin-left: 1.3%;
+  }
+}
+
+.feedbackEmployee{
+  margin-left: 0;
+}
+
+@media (min-width: 1700px) {
+  .feedbackEmployee{
+    margin-left: 1%;
+  }
+}
+
+.feedback{
+  background-color: #457b9d;
+  box-shadow: 1px 1px 3px;
+  color: #f1faee;
+}
+
+/* //////////////////////////////////////////////////MANAGE USERS PAGE///////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.tableHeadingEveryone{
+  font-weight: bold;
+  color: #1d3557;
+  width: 100%;
+  margin-right: 0;
+}
+
+.emoplyeesEveryoneRow{
+  color: #1d3557;
+}
+
+#tableHeadingName{
+  position: absolute;
+  left: 5%;
+}
+
+#tableHeadingEmailAddress{
+  position: absolute;
+  left: 21%;
+}
+
+#tableHeadingDepartment{
+  position: absolute;
+  left: 37%;
+}
+
+#tableHeadingManager{
+  position: absolute;
+  left: 53%;
+}
+
+#tableHeadingHireDate{
+  position: absolute;
+  left: 69%;
+}
+
+.nameOfEmployeeEveryone{
+  position: absolute;
+  top: 20%;
+  left: 4.7%;
+  color: #457b9d;
+  font-weight: 700;
+}
+
+.emailAddressEveryone{
+  position: absolute;
+  top: 20%;
+  left: 20.7%;
+  color: #1d3557;
+  font-weight: 400;
+}
+
+.departmentEveryone{
+  position: absolute;
+  top: 20%;
+  left: 36.7%;
+  color: #1d3557;
+  font-weight: 400;
+}
+
+.managerEveryone{
+  position: absolute;
+  top: 20%;
+  left: 52.7%;
+  z-index: 1;
+}
+
+.hireDateEveryone{
+  position: absolute;
+  top: 20%;
+  left: 68.7%;
+  width: 7%;
+}
+
+.editIconEveryone{
+  position: absolute;
+  top: 22%;
+  left: 79%;
+  z-index: 1;
+}
+
+.editEveryone{
+  position: absolute;
+  top: 10%;
+  left: 78%;
+  background-color: #f1faee;
+  box-shadow: 1px 1px 3px;
+  width: 7%;
+}
+
+.deleteIconEveryone{
+  position: absolute;
+  top: 22%;
+  left: 85.5%;
+  z-index: 1;
+  color: #f1faee;
+}
+
+.deleteEveryone{
+  position: absolute;
+  top: 10%;
+  left: 85%;
+  background-color: #e63946;
+  box-shadow: 1px 1px 3px;
+  width: 7%;
+  color: #f1faee;
+}
+
+.hrEveryone{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 99%;
+}
+
+.profilePicEmployeePageEveryone{
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.editPersonsDetailsBtn{
+  background-color: #f1faee;
+  color: #1d3557;
+}
+
+.terminatePersonBtn{
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+/* ///////////////////////////////////////////////////////////////MANAGE ACCOUTN PAGE/////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.manageAccountDiv {
+  position: fixed;
+  top: 18%;
+  left: 7%;
+  width: 15%;
+}
+
+.a-div{
+  position: relative;
+  width: 100%;
+  height: 25%;
+  box-shadow: 1px 1px 3px;
+}
+
+.generalSettings{
+  border-bottom: 1px double #d1d1d1;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #f1faee;
+  background-color: #457b9d;
+}
+
+.arrowIcon{
+  position: absolute;
+  top: 15%;
+  left: 93%;
+}
+
+.arrowIcon2{
+  position: absolute;
+  top: 65%;
+  left: 93%;
+}
+
+.generalSettings2{
+  position: absolute;
+  top: 22.6%;
+  left: 23%;
+  width: 73%;
+  height: 76%;
+  background-color: #ededed;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.changeSettings{
+  position: absolute;
+  top: 22.6%;
+  left: 23%;
+  width: 73%;
+  height: 76%;
+  background-color: #ededed;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .changeSettings{
+    left: 25%;
+    width: 71%;
+  }
+}
+
+
+.changeSettings hr{
+  border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 99%;
+}
+
+.noDisplay{
+  color: #ededed;
+}
+
+#companyName{
+  width: 50%;
+}
+
+#peerFeedbackCycle{
+  width: 50%;
+}
+
+.changeSettings .dropdown-toggle{
+  width: 10%;
+  background-color: white;
+  color: #1d3557;
+}
+
+.saveChanges{
+  position: absolute;
+  top: 88%;
+  left: 0.4%; 
+}
+
+.saveChangesBtn{
+  position: absolute;
+  top: 92%;
+  width: 10%;
+  background-color: #457b9d;
+  color: #f1faee;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1190px) {
+  .saveChangesBtn{
+    width: 23%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1700px) {
+  .saveChangesBtn{
+    width: 15%;
+  }
+}
+
+.changeSettings h3{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.changeSettings h4{
+  font-size: 1rem;
+}
+
+.col-2{
+  width: 15%;
+}
+
+.faded{
+  opacity: 0.21;
+}
+
+/* 360 feeddback page */
+
+
+.viewFeedbackDiv {
+  position: absolute;
+  top: 18%;
+  left: 7%;
+  width: 89%;
+  height: auto;
+  margin-bottom: 10rem;
+}
+
+.giveFeedbackDiv {
+  background-color: #ededed;
+  box-shadow: 1px 1px 3px;
+  padding: 1rem;
+  height: auto;
+  margin-top: 3.35rem;
+  display: none;
+}
+
+.giveFeedbackDiv h3{
+  font-size: 1.5rem;
+}
+
+.findEmployeesFeedback{
+  margin-top: 2%;
+  width: 100%;
+  height: auto;
+  background-color: #ededed;
+  box-shadow: 1px 1px 3px;
+  padding-bottom: 0;
+}
+
+.findEmployeesFeedback h3{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.findEmployeesFeedback hr{
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 99%;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.findEmployeesFeedback .sendButton{
+  background-color: #457b9d;
+  box-shadow: 1px 1px 3px;
+  color: #f1faee;
+}
+
+.findEmployeesFeedback .viewButton{
+  background-color: #f1faee;
+  box-shadow: 1px 1px 3px;
+}
+
+.findEmployeesFeedback .employeeNameFeedback{
+  color: #457b9d;
+}
+
+.profilePicFeedbackPage{
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.submitFeedback{
+  background-color: #457b9d;
+  color: #f1faee;
+  box-shadow: 1px 1px 3px;
+}
+
+.saveFeedback{
+  background-color :#f1faee ;
+  color: #457b9d;
+  box-shadow: 1px 1px 3px;
+  display: inline-block;
+}
+
+/* Add employees */
+
+.addEmployeeDiv {
+  margin-left: 7%;
+  margin-top: 6.3%;
+  width: 89%;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 800px) and (max-width: 990px){
+  .addEmployeeDiv {
+    margin-top: 8.5%;
+  }
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1250px){
+  .addEmployeeDiv {
+    margin-top: 7.5%;
+  }
+}
+
+.addEmployeeForm {
+  margin-top: 0.9%;
+  background-color: #ededed;
+  width: 100%;
+  height: 100%;
+  padding-top: 2%;
+  padding-left: 0.5%;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.addEmployeeForm h4{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1d3557;
+}
+
+
+.addEmployeeDiv h2{
+  color: #1d3557;
+  font-weight: 600;
+}
+
+
+.addEmployeeForm hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 99%;
+  margin-bottom: 1rem;
+}
+
+.addEmployeeForm .standardInputSize {
+  width: 11.9%;
+}
+
+.indentedInfo{
+  padding-left: 1%;
+}
+
+.selectBtn{
+ background-color: white;
+ color: #1d3557;
+ border: 1px solid #ced4da;
+}
+
+.indentedInfo label{
+  color: #1d3557;
+}
+
+.boxPrivleges{
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.5rem;
+  border: 1px solid #1d3557;
+  width: 10rem;
+}
+
+.saveEmployeeBtn{
+  background-color: #457b9d;
+  color: #f1faee;
+  box-shadow: 1px 1px 3px;
+  width: 6rem;
+}
+
+.cancelEmployeeBtn{
+  background-color: #f1faee;
+  color: #457b9d;
+  box-shadow: 1px 1px 3px;
+  width: 6rem;
+}
+
+/* edit profile page */
+
+.editProfileDiv{
+  width: 100%;
+  height: 100%;
+  background-color: #ededed;
+}
+
+/* /////////////////////////////////////////////////////////VIEW DIRECTORY PAGE//////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.viewDirectoryDiv {
+  margin-left: 7%;
+  margin-top: 6.3%;
+  width: 89%;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1180px){
+  .viewDirectoryDiv h1{
+    margin-top: 10%;
+  }
+}
+
+.alertSuccess{
+  background-color: #f1faee;
+  /* opacity: 0.75; */
+  box-shadow: 1px 1px 3px;
+  color: #1d3557;
+}
+
+#addEmployeeBtn{
+  box-shadow: 1px 1px 3px;
+  background-color: #457b9d;
+  color: #f1faee;
+  margin-left: 76%;
+}
+
+.badge-dark{
+  background-color: #457b9d;
+  font-size: 100%;
+}
