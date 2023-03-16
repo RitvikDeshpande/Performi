@@ -16,7 +16,8 @@
 
 ## Design Screenshots
 ### Login Page
-![My Image](screenshots/1.1-Login_Page.png)
+<img src="screenshots/1.1-Login_Page.png">
+<!-- ![My Image](screenshots/1.1-Login_Page.png) -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
