@@ -18,16 +18,16 @@
 <img src="screenshots/1.1-Login_Page.png" width=750>
 
 ### Current Tasks 
-<img src="screenshots/4.1-Tasks_Screen.png">
+<img src="screenshots/4.1-Tasks_Screen.png" width=750>
 
 ### Employee Goals 
-<img src="screenshots/5.1-Goals_adding a_new_goal.png">
+<img src="screenshots/5.1-Goals_adding a_new_goal.png" width=750>
 
 ### Employee Self Assessment 
-<img src="screenshots/6.1-Assessment_self_assemnent.png">
+<img src="screenshots/6.1-Assessment_self_assemnent.png" width=750>
 
 ### 360 feedback
-<img src="screenshots/14.1-360 Feedback.png">
+<img src="screenshots/14.1-360 Feedback.png" width=750>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
