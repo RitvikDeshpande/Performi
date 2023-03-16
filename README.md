@@ -6,7 +6,7 @@
     - Administrator: Manage users and the company account. Can view results of anyone from the entire organization.
     - HR: Can view results of anyone from the entire organization. 
     - Manager: Can only view the results of subordinates.
-    - Employee: Can only view the result of him/herself. Can not create new appraisals but is allowed to send a peer review.  
+    - Employee: Can only view the result of themself. Can not create new appraisals but is allowed to send a peer review.  
 
 - Allows for 360 degree feedback 
 
