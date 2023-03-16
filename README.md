@@ -2,13 +2,12 @@
 
 ## About The Project
 - Performance Managment website that enables employees and managers within a company to send and recieve performance reviews
+- Allows for 360-degree feedback whereby feedback is collected from supervisors, suboordinates, peers and customers
 - 4 roles
     - Administrator: Manage users and the company account. Can view results of anyone from the entire organization.
     - HR: Can view results of anyone from the entire organization. 
     - Manager: Can only view the results of subordinates.
     - Employee: Can only view the result of themself. Can not create new appraisals but is allowed to send a peer review.  
-
-- Allows for 360 degree feedback 
 
 ### Built With
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
@@ -17,7 +16,18 @@
 ## Design Screenshots
 ### Login Page
 <img src="screenshots/1.1-Login_Page.png">
-<!-- ![My Image](screenshots/1.1-Login_Page.png) -->
+
+### Current Tasks 
+<img src="screenshots/4.1-Tasks_Screen.png">
+
+### Employee Goals 
+<img src="screenshots/5.1-Goals_adding a_new_goal.png">
+
+### Employee Self Assessment 
+<img src="screenshots/6.1-Assessment_self_assemnent.png">
+
+### 360 feedback
+<img src="screenshots/14.1-360 Feedback.png">
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
