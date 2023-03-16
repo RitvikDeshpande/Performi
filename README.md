@@ -16,7 +16,7 @@
 
 ## Design Screenshots
 ### Login Page
-<img src="screenshots/1.1-Login_Page.png" width="560">
+<img src="screenshots/1.1-Login_Page.png">
 <!-- ![My Image](screenshots/1.1-Login_Page.png) -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
