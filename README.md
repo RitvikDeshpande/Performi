@@ -15,7 +15,7 @@
 
 ## Design Screenshots
 ### Login Page
-<img src="screenshots/1.1-Login_Page.png">
+<img src="screenshots/1.1-Login_Page.png" width=500>
 
 ### Current Tasks 
 <img src="screenshots/4.1-Tasks_Screen.png">
