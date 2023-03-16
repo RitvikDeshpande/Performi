@@ -10,7 +10,7 @@
     - Employee: Can only view the result of themself. Can not create new appraisals but is allowed to send a peer review.  
 
 ### Built With
-- [![Html][Html.com]]
+- ![Html][Html.com]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 - [![JQuery][JQuery.com]][JQuery-url]
 
