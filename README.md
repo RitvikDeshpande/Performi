@@ -11,6 +11,7 @@
 
 ### Built With
 - ![Html][Html.com]
+- ![CSS][CSS.com]
 - ![JavaScript][javascript.com]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 - [![JQuery][JQuery.com]][JQuery-url]
@@ -34,6 +35,7 @@
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [Html.com]: https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white
+[CSS.com]: https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white
 [javascript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
