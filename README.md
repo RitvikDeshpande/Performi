@@ -9,7 +9,7 @@
 - [![JQuery][JQuery.com]][JQuery-url]
 
 ## Design Screenshots
-- Login Page
+### Login Page
 ![My Image](screenshots/1.1-Login_Page.png)
 
 <!-- MARKDOWN LINKS & IMAGES -->
