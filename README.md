@@ -5,8 +5,8 @@
 - Allows for 360 degree feedback 
 
 ## Built With
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
-[![JQuery][JQuery.com]][JQuery-url]
+- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+- [![JQuery][JQuery.com]][JQuery-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
